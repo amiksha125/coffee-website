@@ -239,6 +239,28 @@ header .navbar{
         color: var(--white-color);
     }
 
+    .hero .section-content{
+        gap: 50px;
+        text-align: center;
+        padding: 30px 20px 20px;
+        flex-direction: column-reverse;
+        justify-content: center;
+
+    }
+
+    .hero .hero-details :is(.subtitle, .description){
+        max-width: 100%;
+    }
+
+    .hero .hero-details .buttons{
+        justify-content: center;
+    }
+
+    .hero .hero-image-wrapper{
+        max-width: 270px;
+        margin-top: 0;
+    }
+
 }
 
 
