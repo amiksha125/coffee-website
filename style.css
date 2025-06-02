@@ -248,6 +248,33 @@ header .navbar{
     color: var(--secondary-color);
 }
 
+/* Menu section styling */
+.menu{
+    
+}
+.menu .menu-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 110px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .menu-list .menu-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: calc(100% / 3 - 110px); 
+    /* made items adjacent to each other , 3 in a row with 110gap */
+    justify-content: space-between;
+    text-align: center;
+}
+
+.menu .menu-list .menu-item .menu-image{
+    max-width: 83%;
+    aspect-ratio: 1;
+}
+
 
 /* Responsive media query code for max-width 900px  */
 @media screen and (max-width: 900px) {
