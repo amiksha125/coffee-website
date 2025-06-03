@@ -303,6 +303,11 @@ header .navbar{
     flex-direction: column;
 }
 
+.testinomials .slider-wrapper{
+    padding: 50px 0 100px;
+    background: var(--light-pink-color);
+}
+
 .testinomials .testinomials-item .user-image{
     width: 180px;
     height: 180px;
@@ -318,6 +323,23 @@ header .navbar{
 
 .testinomials .testinomials-item .feedback{
     line-height: 25px;
+}
+
+.testinomials .swiper-pagination-bullet{
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+    background: var(--secondary-color);
+}
+
+.testinomials .swiper-slide-button{
+    margin-top: -50px;
+    color: var(--secondary-color);
+    transition: 0.2s ease; 
+}
+
+.testinomials .swiper-slide-button:hover{
+    color: var(--primary-color);
 }
 
 /* Responsive media query code for max-width 1024px  */
