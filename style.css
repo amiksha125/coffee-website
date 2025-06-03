@@ -289,7 +289,10 @@ header .navbar{
     font-size: var(--font-size-m);
 }
 
-/* Responsive media query code for max-width 900px  */
+/* Testinomial section styling  */
+
+
+/* Responsive media query code for max-width 1024px  */
 @media screen and (max-width: 1024px){
     .menu .menu-list{
         gap: 60px;
@@ -414,6 +417,7 @@ header .navbar{
      }
 }
 
+/* Responsive media query code for max-width 640px  */
 @media screen and (max-width: 640px) {
     .menu .menu-list{
         gap: 60px;
