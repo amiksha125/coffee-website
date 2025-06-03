@@ -290,7 +290,35 @@ header .navbar{
 }
 
 /* Testinomial section styling  */
+.testinomials{
+    padding: 50px 0 100px;
+    background: var(--light-pink-color);
+}
 
+.testinomials .testinomials-item{
+    display: flex;
+    padding: 35px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testinomials .testinomials-item .user-image{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 45px;
+    border-radius: var(--border-radius-circle);
+}
+
+.testinomials .testinomials-item .name{
+    margin-bottom: 16px;
+    font-size: var(--font-size-m);
+}
+
+.testinomials .testinomials-item .feedback{
+    line-height: 25px;
+}
 
 /* Responsive media query code for max-width 1024px  */
 @media screen and (max-width: 1024px){
