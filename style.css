@@ -42,6 +42,10 @@
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* Styling for whole sites  */
 ul{
     list-style: none;
@@ -578,7 +582,7 @@ header .navbar{
     /* About section  */
     .about .section-content{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 70px;
 }
     .about .about-image-wrapper .about-image{
