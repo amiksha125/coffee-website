@@ -1,3 +1,4 @@
+const navLinks = document.querySelectorAll(".nav-menu .nav-link")
 const menuOpenButton = document.getElementById("menu-open-button");
 const menuCloseButton = document.getElementById("menu-close-button");
 // show mobile menu when button clicked 
@@ -8,6 +9,11 @@ menuOpenButton.addEventListener("click", () => {
 
 //Close menu when menu-close-button hit
 menuCloseButton.addEventListener("click", ()=> menuOpenButton.click());
+
+//Close menu when the nav link is clicked
+navLinks.forEach(link => {
+  link.addEventListener("click", () => menuOpenButton.click())
+})
 
 //Swiper imported code 
 const swiper = new Swiper('.slider-wrapper', {
